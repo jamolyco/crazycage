@@ -18,17 +18,15 @@
     
     <title>CRAZY CAGE</title>
     <style>
-    img.fulli {
+    .fulli {
         max-width: 100%;
-        max-height: 25vh;
-        height: auto;
-        width: auto\9; /* ie8 */
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
     .carousel .carousel-item > img {
         width: 80%;
+        height: min-content;
     }
     .container {
         position: relative;
@@ -52,7 +50,6 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-left: 20px;
     }
     .link-button:hover {
         background-color: blue;
@@ -75,9 +72,10 @@
     </br>
     <iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </br>
-    </br> <div style="display:inline-block; max-width: 50%; text-align: center; font-size: 1.5rem;">
+    </br> <div style="display:inline-block; max-width: 65%; text-align: center; font-size: 1.5rem;">
     Follow on Twitter to stay up to date on the latest news about CRAZY CAGE from developer Jamoly Co!</br>
     <a href="https://twitter.com/JamolyC?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @JamolyC</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </br>
     <a class="link-button" href="https://reddit.com/r/crazycage" target="_blank"><span style="font-size: 1.5rem;">Go to the Crazy Cage Subreddit</span></br></a>
 		<h4>ARE YOU TOUGH ENOUGH FOR THE CAGE?!</h4>
         Only the hardest fighters survive... or the best flappers and floppers. <br><br>
@@ -85,13 +83,13 @@
         <br>The higher your percentage the harder you get hit.
         <br>The only rule in the cage is <strong>DON'T TOUCH IT!</strong>
         <br><br>Arm yourself with whatever weapons you can find and smack the ever-living crap out of anyone that dares come near you.<br><br>
-        <strong>Why not practice your golf swing while you're at it? FORE!</strong><br><img src="fore7.gif"><br><br><br>
-        <strong>Or DUAL-WIELD two shotguns and blast em into another dimension</strong><br><img src="shotgun_blast3.gif">
+        <strong>Why not practice your golf swing while you're at it? FORE!</strong><br><img src="fore7.gif" class="fulli"><br><br><br>
+        <strong>Or DUAL-WIELD two shotguns and blast em into another dimension</strong><br><img src="shotgun_blast3.gif" class="fulli">
         <br><br><br><strong>Just be careful of whats behind you, that knock-back can be brutal.
-        <br>So brutal in fact you can use it to your advantage to wildly fly around and take your mobility to the next level.</strong><br><img src="gun_flying6.gif">
-        <br><br><br><strong>Don't like the layout of the arena? No problemo. There's few problems land mines and RPGs can't fix.</strong><br><img src="rpg_destruction3.gif">
+        <br>So brutal in fact you can use it to your advantage to wildly fly around and take your mobility to the next level.</strong><br><img src="gun_flying6.gif" class="fulli">
+        <br><br><br><strong>Don't like the layout of the arena? No problemo. There's few problems land mines and RPGs can't fix.</strong><br><img src="rpg_destruction3.gif" class="fulli">
         <br><br><br><strong>And because we at Jamoly Co are committed to providing you with the most accurate physics simulation we understand no sim would be complete without being able to wildly flap melee weapons to gloriously fly through the sky.</strong>
-        <br><img src="melee_fly4.gif"><br><br><br>
+        <br><img src="melee_fly4.gif" class="fulli"><br><br><br>
         <u><h4>FEATURES:</h4></u><br>
         <ul class="my-ul"><li class="my-li"> <h4><u>CUSTOMIZE YOUR CHARACTER</u></h4>
         Customize each part of your rag-doll separately: the shape and color of your head, ears, body, outfit, eyes, and tail. Also includes a thicc option<br></li>
@@ -142,7 +140,7 @@
     <a class="carousel-item" href="#thirteen!"><img src="screenshots/electrocution.png"></a>
   </div>
   
-  <p></p>
+  <h4 style="text-align: center">Thank you!</h4>
   <script>
   $(document).ready(function(){
     $('.carousel').carousel({indicators: true, fullWidth: true});
